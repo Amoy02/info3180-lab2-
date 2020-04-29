@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="container">
+	<div class="row">
+                <div class="photo">
+                  <img class="rounded-circle account-img" src="{{url_for('static', filename='girl.jpg')}}"/>
+                </div>
+				<div class="aboutme">
+					<div class="fullname">{{full_name}} </div> 
+					<div class="userdetails">@patamoy</div>
+					<div class="userdetails">Kingston,Jamaica{{date_joined}}</div>
+					<div class="userdetails">{{date_joined}} </div>
+				</div>
+         </div>
+
+				<div class="aboutme2">
+				<p id="details">I am a smart and talented young woman who loves website design and development.<span>Contact me if you'd like to work together on a new project </span></p>
+					<div class="column">
+					<div class="col-sm-12">
+					<span id = 'follnum1'>50</span>
+					<span id = 'follnum1'>Posts</span>
+				</div>
+				<div class="col-sm-12">
+				<span id = 'follnum1'>500</span>
+				<span id = 'follnum1'>Following</span>
+				</div>
+				<div class="col-sm-12">
+				<span id = 'follnum1'>650</span>
+				<span id = 'follnum1'>Followers</span>
+				</div>
+                <div>
+                      <br>
+                    
+				<button type="button" class="btn btn-default">Follow</button>
+                </div>
+                <br>
+			</div>
+
+		</div>
+     </div>
+
+{% endblock %} 
+    
+   
