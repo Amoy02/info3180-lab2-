@@ -2,7 +2,7 @@ body {
     padding-top: 5rem;
     font-size: 14px;
     background-color: #F0F0F0;
-    height:900px;
+    height:700px;
     width: 400px;
     margin: auto;
     text-align: center;
@@ -11,13 +11,11 @@ body {
 
 
 .fullname{
- align-content: center;
  color: white;
- text-align: center;
  letter-spacing: 2px;
  margin: 15px 0px;
  font-weight: bold;
- font-size: 22px;
+ font-size: 24px;
 }
 
 img{
@@ -33,70 +31,35 @@ img{
 	padding-top: 1rem;
     height:80%;
     text-align: center;
+    display: inline-block;
     background-color: mediumseagreen;
     margin: auto;
     color: white;
 }
 
-.column{
-    
-    border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	padding-top: 1rem;
-    height:60%;
-    text-align: center;
-    margin: auto; 
-    
-}
  
 aboutme{
-    margin: 30px 30px;
-    align-content: center;
+    margin: 10px 10px;
     color: white;
 }
-
-details{
-    text-align:center;
-    background-color:#F0F0F0;
-    border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	height:40%;
-	padding-bottom: 3rem;
-
-}
-
 
 .aboutme2{
     border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	padding-top: 1rem;
-    position: relative;
+    text-align: center;
+     display: inline-block;
     margin-top: 10px;
     margin-right: 50px;
     background-color: white;
     margin: auto; 
     height:60%;
+    color:grey; 
 }
-
-.details{
-    padding-top: 1rem;
-    padding-right: 50px;
-    padding-left: 50px;
-}
-
-.follnum1{
-    text-align: center;
-    font-size: 16px;
-    word-spacing: 65px;
-    margin-bottom: 7px;
-     margin: 0;
-    word-spacing: 40px;
-    padding: 5;
-}
-
 
 button{
-    align-items:center;
+    text-align: center;
+     display: inline-block;
     margin-left: 150px;
     margin-bottom:50px;
     border-radius:5px;
@@ -105,8 +68,22 @@ button{
     background-color: #4BCE30;
     width: 100px;
     height: 30px;
-    text-align: center;
     color: white;
     margin:auto;
     padding: 3rem
 } 
+
+.follow{
+    font-size: 16px;
+    font-weight: bold;
+    word-spacing: 70px;
+    margin-bottom: 5px;
+    position: relative
+}
+
+.detail{
+    margin: 0;
+    word-spacing: 35px;
+    position: relative
+
+}
